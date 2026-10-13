@@ -1,0 +1,402 @@
+
+<!--Creador: Josmar Moreno Torres-->
+<!--Fecha: 01/10/2026-->
+
+<html>
+
+<head>
+
+    <title>
+        Aplicaciones de Inteligencia Artificial
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+
+        h1
+        {
+            color: orange;
+            font-size: 45px;
+            font-family: "Impact";
+            text-align: center;
+        }
+
+        h2
+        {
+            color: blue;
+            font-size: 30px;
+            font-family: "Arial";
+            text-align: center;
+        }
+
+        body
+        {
+            font-size: 18px;
+            color: blue;
+            font-family: "Arial";
+            background-color: #EAEAEA;
+            margin: 20px;
+        }
+
+        table
+        {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 1100px;
+            margin: auto;
+            table-layout: fixed;
+        }
+
+        th
+        {
+            background-color: #9B2247;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        td
+        {
+            padding: 15px;
+            border: 1px solid black;
+            overflow-wrap: anywhere;
+        }
+
+        a
+        {
+            color: blue;
+            font-size: 18px;
+        }
+
+        img
+        {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* DISEÑO PARA CELULARES */
+
+        @media screen and (max-width: 700px)
+        {
+            body
+            {
+                margin: 10px;
+                font-size: 16px;
+            }
+
+            h1
+            {
+                font-size: 28px;
+            }
+
+            h2
+            {
+                font-size: 21px;
+            }
+
+            table,
+            tbody,
+            tr,
+            td
+            {
+                display: block;
+                width: 100%;
+            }
+
+            table
+            {
+                table-layout: auto;
+                border: none;
+            }
+
+            /* Ocultar los encabezados de la tabla */
+
+            tr:first-child
+            {
+                display: none;
+            }
+
+            /* Convertir cada IA en una tarjeta */
+
+            tr:not(:first-child)
+            {
+                margin-bottom: 20px;
+                border: 1px solid #9B2247;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            td
+            {
+                box-sizing: border-box;
+                padding: 12px;
+                border: none;
+                border-bottom: 1px solid #CCCCCC;
+                text-align: center;
+            }
+
+            td:last-child
+            {
+                border-bottom: none;
+            }
+
+            /* Nombres de los apartados */
+
+            td:nth-child(1)::before
+            {
+                content: "LOGO";
+            }
+
+            td:nth-child(2)::before
+            {
+                content: "NOMBRE";
+            }
+
+            td:nth-child(3)::before
+            {
+                content: "URL OFICIAL";
+            }
+
+            td:nth-child(4)::before
+            {
+                content: "DESCRIPCION";
+            }
+
+            td:nth-child(5)::before
+            {
+                content: "MAS INFORMACION";
+            }
+
+            td::before
+            {
+                display: block;
+                color: #9B2247;
+                font-weight: bold;
+                margin-bottom: 8px;
+            }
+
+            /* Centrar los logos */
+
+            td img
+            {
+                width: 110px;
+                max-width: 100%;
+                height: auto;
+                margin: auto;
+            }
+
+            /* Facilitar la lectura de las descripciones */
+
+            td:nth-child(4)
+            {
+                text-align: left;
+                line-height: 1.5;
+            }
+
+            a
+            {
+                overflow-wrap: anywhere;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<center>
+
+    <h1>
+        APLICACIONES DE INTELIGENCIA ARTIFICIAL
+    </h1>
+
+    <h2>
+        Sus modelos y características
+    </h2>
+
+    <br>
+
+    <table border="1">
+
+        <tr>
+
+            <th width="200">
+                LOGO
+            </th>
+
+            <th width="180">
+                NOMBRE
+            </th>
+
+            <th width="220">
+                URL
+            </th>
+
+            <th width="300">
+                DESCRIPCIÓN
+            </th>
+
+            <th width="150">
+                MÁS INFORMACIÓN
+            </th>
+
+        </tr>
+
+        <!-- GEMINI -->
+
+        <tr bgcolor="white">
+
+            <td align="center" valign="middle">
+
+                <img src="logosia/gemini1.png"
+                     width="130"
+                     height="130"
+                     alt="Logo de Gemini">
+
+            </td>
+
+            <td align="center">
+
+                <b>
+                    Gemini
+                </b>
+
+            </td>
+
+            <td align="center">
+
+                <a href="https://gemini.google.com/" target="_blank">
+                    Gemini
+                </a>
+
+            </td>
+
+            <td>
+
+                Inteligencia artificial desarrollada por Google.
+                Puede ayudar a responder preguntas, generar
+                contenido, aprender, resumir información y
+                trabajar con diferentes tipos de contenido.
+
+            </td>
+
+            <td align="center">
+
+                <a href="practica5-2.html">
+                    Ver más
+                </a>
+
+            </td>
+
+        </tr>
+
+        <!-- CLAUDE -->
+
+        <tr bgcolor="#D9D9D9">
+
+            <td align="center" valign="middle">
+
+                <img src="logosia/claude1.png"
+                     width="190"
+                     height="150"
+                     alt="Logo de Claude">
+
+            </td>
+
+            <td align="center">
+
+                <b>
+                    Claude
+                </b>
+
+            </td>
+
+            <td align="center">
+
+                <a href="https://claude.ai/" target="_blank">
+                    Claude
+                </a>
+
+            </td>
+
+            <td>
+
+                Asistente de inteligencia artificial desarrollado
+                por Anthropic. Puede utilizarse para conversar,
+                analizar información, redactar textos, resolver
+                problemas y ayudar en diferentes actividades.
+
+            </td>
+
+            <td align="center">
+
+                <a href="practica5-2.html">
+                    Ver más
+                </a>
+
+            </td>
+
+        </tr>
+
+        <!-- PERPLEXITY -->
+
+        <tr bgcolor="white">
+
+            <td align="center" valign="middle">
+
+                <img src="logosia/perplexity1.png"
+                     width="130"
+                     height="110"
+                     alt="Logo de Perplexity">
+
+            </td>
+
+            <td align="center">
+
+                <b>
+                    Perplexity IA
+                </b>
+
+            </td>
+
+            <td align="center">
+
+                <a href="https://www.perplexity.ai/" target="_blank">
+                    Perplexity
+                </a>
+
+            </td>
+
+            <td>
+
+                Herramienta de búsqueda y respuesta asistida
+                por inteligencia artificial. Permite realizar
+                preguntas en lenguaje natural y consultar
+                información de diferentes fuentes.
+
+            </td>
+
+            <td align="center">
+
+                <a href="practica5-2.html">
+                    Ver más
+                </a>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</center>
+
+<br><br>
+
+</body>
+
+</html>
